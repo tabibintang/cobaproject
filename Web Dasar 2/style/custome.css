@@ -1,0 +1,96 @@
+body{
+	margin: 0px;
+	background-color: #333;
+}
+.navbar{
+	position: fixed;
+	height: 75px;
+	width: 100%;
+	background-color: var(--default-primary-color);
+	z-index: 999
+}
+.brand{
+	background-image: url('../pict/logo-small.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-color: #fff;
+	border-radius: 5%;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.navbar-list{
+	float: right;
+}
+.navbar-brand{
+	padding-top: 10px ;
+	float: left
+}
+.container{
+	width: 1170px;
+	height: 50px;
+	margin: 0px auto;
+	display: block
+}
+.menu{
+	float: right;
+	color: #fff;
+	font-size: 14pt;
+	transition:0.3s all;
+	padding: 25px 0px 25px 20px;
+	font-family: 'Roboto-Light';
+}
+.menu:hover{
+	color:#ccc;
+}
+.cover{
+	background-image: url('../pict/semua_tau.jpg');
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	color: #fff;
+	position: absolute;
+	margin-top: 75px
+}
+.info-kiri{
+	float:left; 
+	background: rgba(0,0,0,0.7);
+	padding: 25px;
+	margin-top:50px
+}
+.info-kanan{
+	float:right; 
+	background: rgba(0,0,0,0.7);
+	padding: 25px;
+	margin-top:250px;
+	text-align: right;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+.big-title{
+	font-size: 25pt;
+	margin: 50px 0px 10px 50px;
+	font-family: 'Roboto-Bold';
+	color: var(--default-primary-color)
+}
+.motto-title{
+	font-size: 20pt;
+	margin: 10px 0px 10px 50px;
+	font-family: 'OpenSans-Light';
+	color: var(--light-primary-color)
+}
+.sub-big-title{
+	font-size: 18pt;
+	margin: 50px 50px 10px 0px;
+	font-family: 'Roboto-Medium';
+	color: var(--accent-color)
+}
+.sub-motto-title{
+	font-size: 15pt;
+	margin: 10px 50px 10px 0px;
+	font-family: 'OpenSans-Light';
+	color: var(--text-primary-color)
+}
